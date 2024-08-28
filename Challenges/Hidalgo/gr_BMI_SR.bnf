@@ -6,16 +6,15 @@
 
 <var> ::= getVariable(1,k)|getVariable(2,k)|getVariable(3,k)|getVariable(4,k)|getVariable(5,k)|getVariable(6,k)|getVariable(7,k)|getVariable(8,k)|getVariable(9,k)
 
-# getVariable(1,k) --> AVG_GLU_14D
-# getVariable(2,k) --> Weight
-# getVariable(3,k) --> Height
-# getVariable(4,k) --> GMI
-# getVariable(5,k) --> CV
-# getVariable(6,k) --> TIR
-# getVariable(7,k) --> TAR1
-# getVariable(8,k) --> TAR2
-# getVariable(9,k) --> TBR1
-# getVariable(10,k) --> TBR2
+# getVariable(1,k) -->BMXWT;
+# getVariable(2,k) -->BMXHT;
+# getVariable(3,k) -->BMXLEG;
+# getVariable(4,k) -->BMXARML;
+# getVariable(5,k) -->BMXARMC;
+# getVariable(6,k) -->BMXWAIST;
+# getVariable(7,k) -->BMXHIP;
+# getVariable(8,k) -->RIAGENDR;
+# getVariable(9,k) -->RIDAGEYR
 
 
 <cte> ::= <base>*Math.pow(10,<sign><exponent>)
