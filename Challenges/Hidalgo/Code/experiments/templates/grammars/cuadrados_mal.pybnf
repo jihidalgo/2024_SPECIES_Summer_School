@@ -1,3 +1,0 @@
-<start> ::= <expr>
-<expr>  ::= <var>pow(<var>,<var>)|<var>
-<var>   ::= x[0]|1|2|3
